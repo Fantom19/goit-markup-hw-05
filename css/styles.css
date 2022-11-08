@@ -132,12 +132,14 @@ padding-bottom: 94px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link:hover,
 .link:focus{
   color: var(--Text-color);
 }
-.lil{
+.link-tex{
   position: relative;
 }
 .current{
@@ -179,6 +181,8 @@ padding-bottom: 94px;
   letter-spacing: 0.02em;
   text-decoration: none;
   font-style: normal;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tel-footer{
   display: inline-block;
@@ -192,6 +196,8 @@ padding-bottom: 94px;
   letter-spacing: 0.02em;
   text-decoration: none;
   font-style: normal;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mailto-footer:hover,
 .mailto-footer:focus{
@@ -214,6 +220,8 @@ padding-bottom: 94px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tel:hover,
 .tel:focus{
@@ -228,6 +236,8 @@ padding-bottom: 94px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .auth-svg{
   fill: currentColor;
@@ -297,6 +307,8 @@ padding-bottom: 94px;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order-but:hover{
   background-color: var(--active-color);
@@ -407,6 +419,10 @@ padding-bottom: 94px;
   color: #AFB1B8;
   border-radius: 50%;
   background-color: var(--white-color);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+
 }
 .soc-icon{
   fill: currentColor;
@@ -453,6 +469,8 @@ padding-bottom: 94px;
   color: #AFB1B8;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-icon{
  fill: currentColor;
@@ -495,6 +513,8 @@ padding-bottom: 94px;
   color: var(--white-color);
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc-icon-footer{
   fill: currentColor;
@@ -522,6 +542,9 @@ padding-bottom: 94px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   border-radius: 4px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .links:hover,
