@@ -613,9 +613,7 @@ padding-bottom: 94px;
  border-radius: 4px; 
 }
 .modal-butt{
-
 border: 1px solid rgba(0, 0, 0, 0.1);
-
 display: flex;
   width: 30px;
   height: 30px;
@@ -626,12 +624,7 @@ display: flex;
   background-color: var(--white-color);
 }
 .modal-link{
-  display: flex;
   width: 30px;
   height: 30px;
-  justify-content: center;
-  align-items: center;
-  color: var(--white-color);
-  border-radius: 50%;
-  background-color: var(--white-color);
+ 
 }
