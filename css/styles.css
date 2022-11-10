@@ -613,18 +613,16 @@ padding-bottom: 94px;
  border-radius: 4px; 
 }
 .modal-butt{
-border: 1px solid rgba(0, 0, 0, 0.1);
-display: flex;
+  display: flex;
   width: 30px;
   height: 30px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
   justify-content: center;
   align-items: center;
   color: var(--white-color);
   border-radius: 50%;
   background-color: var(--white-color);
-}
-.modal-link{
-  width: 30px;
-  height: 30px;
- 
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
