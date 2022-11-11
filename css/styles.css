@@ -584,11 +584,9 @@ padding-bottom: 94px;
   letter-spacing: 0.03em;
 
   color: var(--white-color);
-
   background-color: rgba(33, 150, 243, 0.9);
 
   user-select: none;
-
   transition: transform 250ms;
 }
 
